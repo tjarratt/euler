@@ -1,0 +1,329 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F784A052194EC4050053D70E /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F784A051194EC4050053D70E /* main.swift */; };
+		F7C705D91A08A8EE00E7D48B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F7C705D81A08A8EE00E7D48B /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F784A04C194EC4050053D70E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		F7C705D41A08A8EE00E7D48B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F784A04E194EC4050053D70E /* Euler */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Euler; sourceTree = BUILT_PRODUCTS_DIR; };
+		F784A051194EC4050053D70E /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		F784A058194EC4510053D70E /* 1.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 1.playground; sourceTree = "<group>"; };
+		F7C705D61A08A8EE00E7D48B /* Euler1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Euler1; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7C705D81A08A8EE00E7D48B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F784A04B194EC4050053D70E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7C705D31A08A8EE00E7D48B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F784A045194EC4050053D70E = {
+			isa = PBXGroup;
+			children = (
+				F784A050194EC4050053D70E /* Euler */,
+				F7C705D71A08A8EE00E7D48B /* Euler1 */,
+				F784A04F194EC4050053D70E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F784A04F194EC4050053D70E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F784A04E194EC4050053D70E /* Euler */,
+				F7C705D61A08A8EE00E7D48B /* Euler1 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F784A050194EC4050053D70E /* Euler */ = {
+			isa = PBXGroup;
+			children = (
+				F784A051194EC4050053D70E /* main.swift */,
+				F784A058194EC4510053D70E /* 1.playground */,
+			);
+			path = Euler;
+			sourceTree = "<group>";
+		};
+		F7C705D71A08A8EE00E7D48B /* Euler1 */ = {
+			isa = PBXGroup;
+			children = (
+				F7C705D81A08A8EE00E7D48B /* main.m */,
+			);
+			path = Euler1;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F784A04D194EC4050053D70E /* Euler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F784A055194EC4050053D70E /* Build configuration list for PBXNativeTarget "Euler" */;
+			buildPhases = (
+				F784A04A194EC4050053D70E /* Sources */,
+				F784A04B194EC4050053D70E /* Frameworks */,
+				F784A04C194EC4050053D70E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Euler;
+			productName = Euler;
+			productReference = F784A04E194EC4050053D70E /* Euler */;
+			productType = "com.apple.product-type.tool";
+		};
+		F7C705D51A08A8EE00E7D48B /* Euler1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7C705DC1A08A8EE00E7D48B /* Build configuration list for PBXNativeTarget "Euler1" */;
+			buildPhases = (
+				F7C705D21A08A8EE00E7D48B /* Sources */,
+				F7C705D31A08A8EE00E7D48B /* Frameworks */,
+				F7C705D41A08A8EE00E7D48B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Euler1;
+			productName = Euler1;
+			productReference = F7C705D61A08A8EE00E7D48B /* Euler1 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F784A046194EC4050053D70E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "General Linear Group";
+				TargetAttributes = {
+					F784A04D194EC4050053D70E = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					F7C705D51A08A8EE00E7D48B = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+				};
+			};
+			buildConfigurationList = F784A049194EC4050053D70E /* Build configuration list for PBXProject "Euler" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F784A045194EC4050053D70E;
+			productRefGroup = F784A04F194EC4050053D70E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F784A04D194EC4050053D70E /* Euler */,
+				F7C705D51A08A8EE00E7D48B /* Euler1 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F784A04A194EC4050053D70E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F784A052194EC4050053D70E /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7C705D21A08A8EE00E7D48B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7C705D91A08A8EE00E7D48B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F784A053194EC4050053D70E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F784A054194EC4050053D70E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F784A056194EC4050053D70E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F784A057194EC4050053D70E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F7C705DA1A08A8EE00E7D48B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F7C705DB1A08A8EE00E7D48B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F784A049194EC4050053D70E /* Build configuration list for PBXProject "Euler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F784A053194EC4050053D70E /* Debug */,
+				F784A054194EC4050053D70E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F784A055194EC4050053D70E /* Build configuration list for PBXNativeTarget "Euler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F784A056194EC4050053D70E /* Debug */,
+				F784A057194EC4050053D70E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7C705DC1A08A8EE00E7D48B /* Build configuration list for PBXNativeTarget "Euler1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7C705DA1A08A8EE00E7D48B /* Debug */,
+				F7C705DB1A08A8EE00E7D48B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F784A046194EC4050053D70E /* Project object */;
+}
