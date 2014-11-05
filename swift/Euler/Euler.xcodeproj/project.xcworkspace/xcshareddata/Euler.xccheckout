@@ -11,17 +11,17 @@
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>87B3F07432A8DDCDF1FA36CDBB11136CE7A41151</key>
-		<string>ssh://github.com/tjarratt/euler.git</string>
+		<string>github.com:tjarratt/euler.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>swift/Euler/Euler.xcodeproj/project.xcworkspace</string>
+	<string>swift/Euler/Euler.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>87B3F07432A8DDCDF1FA36CDBB11136CE7A41151</key>
 		<string>../../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>ssh://github.com/tjarratt/euler.git</string>
+	<string>github.com:tjarratt/euler.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>

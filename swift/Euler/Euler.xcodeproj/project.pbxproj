@@ -8,21 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		F76936F21A08BB3D00FFEAC0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F76936F11A08BB3D00FFEAC0 /* main.m */; };
-		F784A052194EC4050053D70E /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F784A051194EC4050053D70E /* main.swift */; };
 		F7C705D91A08A8EE00E7D48B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F7C705D81A08A8EE00E7D48B /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		F76936ED1A08BB3D00FFEAC0 /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
-			dstSubfolderSpec = 0;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 1;
-		};
-		F784A04C194EC4050053D70E /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -45,22 +35,13 @@
 /* Begin PBXFileReference section */
 		F76936EF1A08BB3D00FFEAC0 /* Euler2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Euler2; sourceTree = BUILT_PRODUCTS_DIR; };
 		F76936F11A08BB3D00FFEAC0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F784A04E194EC4050053D70E /* Euler */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Euler; sourceTree = BUILT_PRODUCTS_DIR; };
-		F784A051194EC4050053D70E /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		F784A058194EC4510053D70E /* 1.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 1.playground; sourceTree = "<group>"; };
+		F784A058194EC4510053D70E /* 1.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = 1.playground; path = ../Euler/1.playground; sourceTree = "<group>"; };
 		F7C705D61A08A8EE00E7D48B /* Euler1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Euler1; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7C705D81A08A8EE00E7D48B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		F76936EC1A08BB3D00FFEAC0 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F784A04B194EC4050053D70E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -88,7 +69,6 @@
 		F784A045194EC4050053D70E = {
 			isa = PBXGroup;
 			children = (
-				F784A050194EC4050053D70E /* Euler */,
 				F7C705D71A08A8EE00E7D48B /* Euler1 */,
 				F76936F01A08BB3D00FFEAC0 /* Euler2 */,
 				F784A04F194EC4050053D70E /* Products */,
@@ -98,25 +78,16 @@
 		F784A04F194EC4050053D70E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F784A04E194EC4050053D70E /* Euler */,
 				F7C705D61A08A8EE00E7D48B /* Euler1 */,
 				F76936EF1A08BB3D00FFEAC0 /* Euler2 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F784A050194EC4050053D70E /* Euler */ = {
-			isa = PBXGroup;
-			children = (
-				F784A051194EC4050053D70E /* main.swift */,
-				F784A058194EC4510053D70E /* 1.playground */,
-			);
-			path = Euler;
-			sourceTree = "<group>";
-		};
 		F7C705D71A08A8EE00E7D48B /* Euler1 */ = {
 			isa = PBXGroup;
 			children = (
+				F784A058194EC4510053D70E /* 1.playground */,
 				F7C705D81A08A8EE00E7D48B /* main.m */,
 			);
 			path = Euler1;
@@ -140,23 +111,6 @@
 			name = Euler2;
 			productName = Euler2;
 			productReference = F76936EF1A08BB3D00FFEAC0 /* Euler2 */;
-			productType = "com.apple.product-type.tool";
-		};
-		F784A04D194EC4050053D70E /* Euler */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F784A055194EC4050053D70E /* Build configuration list for PBXNativeTarget "Euler" */;
-			buildPhases = (
-				F784A04A194EC4050053D70E /* Sources */,
-				F784A04B194EC4050053D70E /* Frameworks */,
-				F784A04C194EC4050053D70E /* CopyFiles */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = Euler;
-			productName = Euler;
-			productReference = F784A04E194EC4050053D70E /* Euler */;
 			productType = "com.apple.product-type.tool";
 		};
 		F7C705D51A08A8EE00E7D48B /* Euler1 */ = {
@@ -188,9 +142,6 @@
 					F76936EE1A08BB3D00FFEAC0 = {
 						CreatedOnToolsVersion = 6.0.1;
 					};
-					F784A04D194EC4050053D70E = {
-						CreatedOnToolsVersion = 6.0;
-					};
 					F7C705D51A08A8EE00E7D48B = {
 						CreatedOnToolsVersion = 6.0.1;
 					};
@@ -208,7 +159,6 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F784A04D194EC4050053D70E /* Euler */,
 				F7C705D51A08A8EE00E7D48B /* Euler1 */,
 				F76936EE1A08BB3D00FFEAC0 /* Euler2 */,
 			);
@@ -221,14 +171,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				F76936F21A08BB3D00FFEAC0 /* main.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F784A04A194EC4050053D70E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F784A052194EC4050053D70E /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,20 +280,6 @@
 			};
 			name = Release;
 		};
-		F784A056194EC4050053D70E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		F784A057194EC4050053D70E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
 		F7C705DA1A08A8EE00E7D48B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -382,21 +310,13 @@
 				F76936F41A08BB3D00FFEAC0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F784A049194EC4050053D70E /* Build configuration list for PBXProject "Euler" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F784A053194EC4050053D70E /* Debug */,
 				F784A054194EC4050053D70E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F784A055194EC4050053D70E /* Build configuration list for PBXNativeTarget "Euler" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F784A056194EC4050053D70E /* Debug */,
-				F784A057194EC4050053D70E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
