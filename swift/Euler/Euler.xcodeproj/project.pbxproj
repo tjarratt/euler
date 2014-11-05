@@ -33,6 +33,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		F71C0C061A09EE260034E574 /* 2.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 2.playground; sourceTree = "<group>"; };
 		F76936EF1A08BB3D00FFEAC0 /* Euler2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Euler2; sourceTree = BUILT_PRODUCTS_DIR; };
 		F76936F11A08BB3D00FFEAC0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F784A058194EC4510053D70E /* 1.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = 1.playground; path = ../Euler/1.playground; sourceTree = "<group>"; };
@@ -62,6 +63,7 @@
 			isa = PBXGroup;
 			children = (
 				F76936F11A08BB3D00FFEAC0 /* main.m */,
+				F71C0C061A09EE260034E574 /* 2.playground */,
 			);
 			path = Euler2;
 			sourceTree = "<group>";
