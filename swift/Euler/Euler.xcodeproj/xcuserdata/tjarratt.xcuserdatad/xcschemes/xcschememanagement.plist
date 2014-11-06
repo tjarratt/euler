@@ -19,9 +19,19 @@
 			<key>orderHint</key>
 			<integer>2</integer>
 		</dict>
+		<key>Euler3.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>F71C0C0C1A0ACBC40034E574</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>F76936EE1A08BB3D00FFEAC0</key>
 		<dict>
 			<key>primary</key>

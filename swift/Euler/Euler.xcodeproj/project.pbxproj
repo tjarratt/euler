@@ -7,11 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F71C0C101A0ACBC40034E574 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71C0C0F1A0ACBC40034E574 /* main.swift */; };
 		F76936F21A08BB3D00FFEAC0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F76936F11A08BB3D00FFEAC0 /* main.m */; };
 		F7C705D91A08A8EE00E7D48B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F7C705D81A08A8EE00E7D48B /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		F71C0C0B1A0ACBC40034E574 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		F76936ED1A08BB3D00FFEAC0 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -34,6 +44,9 @@
 
 /* Begin PBXFileReference section */
 		F71C0C061A09EE260034E574 /* 2.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 2.playground; sourceTree = "<group>"; };
+		F71C0C081A0AC4610034E574 /* naive_3.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = naive_3.playground; path = Euler3/naive_3.playground; sourceTree = "<group>"; };
+		F71C0C0D1A0ACBC40034E574 /* Euler3 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Euler3; sourceTree = BUILT_PRODUCTS_DIR; };
+		F71C0C0F1A0ACBC40034E574 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = main.swift; path = Euler3/main.swift; sourceTree = "<group>"; };
 		F76936EF1A08BB3D00FFEAC0 /* Euler2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Euler2; sourceTree = BUILT_PRODUCTS_DIR; };
 		F76936F11A08BB3D00FFEAC0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F784A058194EC4510053D70E /* 1.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = 1.playground; path = ../Euler/1.playground; sourceTree = "<group>"; };
@@ -42,6 +55,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		F71C0C0A1A0ACBC40034E574 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F76936EC1A08BB3D00FFEAC0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -59,6 +79,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F71C0C071A0AC44B0034E574 /* Euler3 */ = {
+			isa = PBXGroup;
+			children = (
+				F71C0C0F1A0ACBC40034E574 /* main.swift */,
+			);
+			name = Euler3;
+			sourceTree = "<group>";
+		};
 		F76936F01A08BB3D00FFEAC0 /* Euler2 */ = {
 			isa = PBXGroup;
 			children = (
@@ -73,6 +101,8 @@
 			children = (
 				F7C705D71A08A8EE00E7D48B /* Euler1 */,
 				F76936F01A08BB3D00FFEAC0 /* Euler2 */,
+				F71C0C071A0AC44B0034E574 /* Euler3 */,
+				F71C0C081A0AC4610034E574 /* naive_3.playground */,
 				F784A04F194EC4050053D70E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -82,6 +112,7 @@
 			children = (
 				F7C705D61A08A8EE00E7D48B /* Euler1 */,
 				F76936EF1A08BB3D00FFEAC0 /* Euler2 */,
+				F71C0C0D1A0ACBC40034E574 /* Euler3 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -98,6 +129,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		F71C0C0C1A0ACBC40034E574 /* Euler3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F71C0C111A0ACBC40034E574 /* Build configuration list for PBXNativeTarget "Euler3" */;
+			buildPhases = (
+				F71C0C091A0ACBC40034E574 /* Sources */,
+				F71C0C0A1A0ACBC40034E574 /* Frameworks */,
+				F71C0C0B1A0ACBC40034E574 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Euler3;
+			productName = Euler3;
+			productReference = F71C0C0D1A0ACBC40034E574 /* Euler3 */;
+			productType = "com.apple.product-type.tool";
+		};
 		F76936EE1A08BB3D00FFEAC0 /* Euler2 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = F76936F51A08BB3D00FFEAC0 /* Build configuration list for PBXNativeTarget "Euler2" */;
@@ -141,6 +189,9 @@
 				LastUpgradeCheck = 0600;
 				ORGANIZATIONNAME = "General Linear Group";
 				TargetAttributes = {
+					F71C0C0C1A0ACBC40034E574 = {
+						CreatedOnToolsVersion = 6.1;
+					};
 					F76936EE1A08BB3D00FFEAC0 = {
 						CreatedOnToolsVersion = 6.0.1;
 					};
@@ -163,11 +214,20 @@
 			targets = (
 				F7C705D51A08A8EE00E7D48B /* Euler1 */,
 				F76936EE1A08BB3D00FFEAC0 /* Euler2 */,
+				F71C0C0C1A0ACBC40034E574 /* Euler3 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		F71C0C091A0ACBC40034E574 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F71C0C101A0ACBC40034E574 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F76936EB1A08BB3D00FFEAC0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -187,6 +247,26 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		F71C0C121A0ACBC40034E574 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F71C0C131A0ACBC40034E574 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		F76936F31A08BB3D00FFEAC0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -305,6 +385,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		F71C0C111A0ACBC40034E574 /* Build configuration list for PBXNativeTarget "Euler3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F71C0C121A0ACBC40034E574 /* Debug */,
+				F71C0C131A0ACBC40034E574 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		F76936F51A08BB3D00FFEAC0 /* Build configuration list for PBXNativeTarget "Euler2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
